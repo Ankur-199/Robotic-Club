@@ -1,0 +1,83 @@
+[
+    {   
+        "title":"The Core Committee",
+        "overflow":true,
+        "members":[
+            {
+                "name": "Harsh Pandey",
+                "position":"President",
+                "profilePic": "/profiles/Core/Ex/2023-24/Harsh_Pandey.jpeg"
+            },
+            {
+                "name": "Akash Kumar",
+                "position": "President",
+                "profilePic": "/profiles/Core/Ex/2023-24/akash.jpg"
+            },
+            {
+                "name": "Sohail Agarwal",
+                "position": "Vice President",
+                "profilePic": "/profiles/Core/Ex/2023-24/sohail.jpg"  
+            },
+            {
+                "name": "Naveena Merin Vinny",
+                "position": "Vice President",
+                "profilePic": "/profiles/Core/Ex/2023-24/naveena.jpg"
+            },
+            {
+                "name": "Atharv Pathak",
+                "position": "General Secretary",
+                "profilePic": "/profiles/Core/Ex/2023-24/Atharv_Pathak.jpg"
+            }
+        ]
+    },
+    {
+        "title":"Finance Department",
+        "overflow":false,
+        "members":[
+            {
+                "name": "Suyansh Agarwal",
+                "position": "Finance Head",
+                "profilePic": "/profiles/Core/Ex/2023-24/SUYASH_AGRAWAL.jpg"
+              }          
+        ]
+    },
+    {
+        "title":"Techical Department",
+        "overflow":false,
+        "members":[
+            {
+                "name": "Sarvesh Agarwal",
+                "position": "Technical Head",
+                "profilePic": "/profiles/Core/Ex/2023-24/sarvesh.jpg"
+
+              }
+        ]
+    },
+    {
+        "title":"Marketing Department",
+        "overflow":false,
+        "members":[
+            {
+                "name": "Godavari Tanmayi",
+                "position": "Marketing Head",
+                "profilePic": "/profiles/Core/Ex/2023-24/godavari.jpg"
+              },
+              {
+                "name": "Utkarsh Kedia",
+                "position": "Marketing Head",
+                "profilePic": "/profiles/Core/Ex/2023-24/utkarsh.jpeg"
+              }
+        ]
+    },
+    {
+        "title":"Design and Social Media",
+        "overflow":false,
+        "members":[
+            {
+                "name": "Khsitij Agarwal",
+                "position": "Design Head",
+                "profilePic": "/profiles/Core/Ex/2023-24/khsitij.jpeg"
+              }
+        ]
+    }
+]

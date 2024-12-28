@@ -1,0 +1,56 @@
+[
+    {
+      "members": [
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Yash Srivastava",
+          "position": "FFCs Member",
+          "description":"The Robotics Club has truly impressed me with their innovative projects and dedication to advancing the field of robotics. As a social media enthusiast, I have enjoyed following their updates and seeing the incredible work they do. The club's impact extends beyond their members, as they inspire and educate others about the possibilities of automation. It's great to see such a talented and passionate group of individuals making a difference in the world.",
+          "alt": "Yash",
+          "profilePic": "/profiles/review/Yash_Srivastava.jpg"
+          
+        },
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Godavari Tanmayi",
+          "position": "Marking Head",
+          "description":"As the marketing head for the Robotics Club, I am continually impressed by our innovative projects and passionate members. Their dedication to advancing robotics and promoting education is inspiring. Through effective marketing and social media outreach, we've showcased the club's achievements to a wider audience. It's an honor to work with such a talented and motivated group making a real difference in robotics.",
+          "alt": "Godavari",
+          "profilePic": "/profiles/review/godavari.jpg"
+        },
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Pranav Shinde",
+          "position": "FFCs Member",
+          "description":"As a finance member of the Robotics Club, I have been impressed by the club's ability to balance their passion for robotics with their financial responsibility. The club's leadership has shown a keen understanding of budgeting and financial management, which has allowed them to pursue ambitious projects while remaining fiscally responsible. I am proud to be a part of an organization that values both innovation and financial stability.",
+          "alt": "Pranav",
+          "profilePic": "/profiles/review/pranav.jpg"
+        },
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Teerth Ekanth Shetty",
+          "position": "Design Department Member",
+          "description":"As a design member of the Robotics Club, I have enjoyed contributing my skills to create visually appealing and user-friendly interfaces for the club's projects. The club's commitment to innovation and excellence has motivated me to constantly push my creative limits and produce work that exceeds expectations. The collaboration and support within the club have allowed me to learn and grow as a designer. I am grateful for the opportunity to be a part of such a talented and dedicated team.",
+          "alt": "Teerth",
+          "profilePic": "/profiles/review/teerth.jpg"
+        },
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Yusra Israr",
+          "position": "Technical Department Member",
+          "description":"As a teaching department member, I have witnessed the Robotics Club's positive impact on its members. Their dedication to quality education and hands-on learning has produced passionate, knowledgeable, and skilled students. The club's commitment to innovation and collaboration fosters growth and excellence. I am honored to support an organization making a real difference in its members' lives and robotics education.",
+          "alt": "Yusra",
+          "profilePic": "/profiles/review/Yusra_Israr.jpg"
+        },
+        {
+          "rate": "⭐⭐⭐⭐⭐",
+          "name": "Ashutosh Dubey",
+          "position": "FFCs Member",
+          "description":"Joining the Robotics Club has been one of the best decisions I've made. Not only did I gain valuable knowledge about robotics and automation, but I also found a community of passionate and supportive individuals. The club has helped me develop my technical skills and build lasting connections with like-minded peers. I would highly recommend it to anyone interested in robotics or engineering.",
+          "alt": "Ashutosh",
+          "profilePic": "/profiles/review/Ashutosh_Dubey.jpeg"
+        }
+        
+      ]
+    }
+]

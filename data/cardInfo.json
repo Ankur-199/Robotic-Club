@@ -1,0 +1,31 @@
+[{
+        "title": "Upskill",
+        "img": "./HomePage/Cards/upskill.png",
+        "description": "Expand your horizons and work on what excites you! Keep growing with the community's support—we've got your back!"
+    },
+    {
+        "title": "Vision",
+        "img": "./HomePage/Cards/eyeopen.png",
+        "description": "Empowering students from all backgrounds to learn and love programming, enabling them to teach others."
+    },
+    {
+        "title": "Projects",
+        "img": "./HomePage/Cards/projects.png",
+        "description": "Explore your interests through projects, and find inspiration in the exciting ones we've already created."
+    },
+    {
+        "title": "Mentorship",
+        "img": "./HomePage/Cards/mentorship.png",
+        "description": "We've set up various platforms for you to share your doubts. Feel free to reach out anytime!"
+    },
+    {
+        "title": "Events",
+        "img": "./HomePage/Cards/events.png",
+        "description": "Explore the upcoming events and join the ones that interest you. We'd love for you to engage with us!"
+    },
+    {
+        "title": "Community",
+        "img": "./HomePage/Cards/community.png",
+        "description": "Join the family and get to know us better! We're excited to connect, interact and share amazing experiences with you."
+    }
+]

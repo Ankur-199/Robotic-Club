@@ -1,0 +1,87 @@
+[
+  {
+    "members": [
+      {
+        "name": "Naman Tolasaria",
+        "position": "President",
+        "alt": "naman",
+        "profilePic": "/profiles/Core24-25/Naman_Tolasaria.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/naman-tolasaria-732978158/",
+          "instagram": "https://www.instagram.com/naman_hmm/"
+        }
+      },
+      {
+        "name": "S Sree Harini",
+        "position": "Vice President",
+        "alt": "harini",
+        "profilePic": "/profiles/Core24-25/Sree Harini.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/sree-harini-shivakumar-b27b32277/",
+          "instagram": "https://www.instagram.com/sreeharini04/"
+        }
+      },
+      {
+        "name": "Neharika",
+        "position": "Web Development Head",
+        "alt": "Neharika",
+        "profilePic": "/profiles/Core24-25/Neharika.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/neharika-gond-167460274/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://www.instagram.com/_neharika.04/"
+        }
+      },
+      {
+        "name": "T.Mahesh Karthick",
+        "position": "Design Head",
+        "alt": "Karthick",
+        "profilePic": "/profiles/Core24-25/T.Mahesh Karthick.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/mahesh-karthick-t-299610246/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://www.instagram.com/itz_mags_/"
+        }
+      },
+      {
+        "name": "Pranav Dandegaonkar",
+        "position": "Social Media Head",
+        "alt": "Pranav",
+        "profilePic": "/profiles/Core24-25/Pranav Dandegaonkar.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/pranav-dandegaonkar-0084b4253/",
+          "instagram": "https://www.instagram.com/pranavd_02/"
+        }
+      },
+      {
+        "name": "Raghav Arora",
+        "position": "Management Head",
+        "alt": "raghav",
+        "profilePic": "/profiles/Core24-25/Raghav_Arora.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/raghav-arora-470928261/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://www.instagram.com/raghavarora9899/?igsh=MXdldXpoZHE0eWlydQ%3D%3D"
+        }
+      },
+      {
+        "name": "Sagar Ramanathan",
+        "position": "Teaching Head",
+        "alt": "sagar",
+        "profilePic": "/profiles/Core24-25/Sagar Ramanathan.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/sagar-ramanathan-34sr/",
+          "instagram": "https://www.instagram.com/_sag_34_/"
+        }
+      },
+      {
+        "name": "Yogaraj N",
+        "position": "Project Head",
+        "alt": "yogaraj",
+        "profilePic": "/profiles/Core24-25/Yogaraj N.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/yogaraj-n-63b446304/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "instagram": "https://www.instagram.com/jar_vii_7/"
+        }
+      }
+    ]
+  }
+]
+  

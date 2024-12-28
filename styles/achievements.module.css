@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@400&family=Overpass:wght@300&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@800&display=swap");
+
+.main {
+  background-color: #070707;
+}
+
+.home button {
+    background-color: #80FF44;
+    color: #000000;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .home button:hover {
+    opacity: 0.75;
+    background-color: #80FF44;
+    color: #000000;
+  }
+
+  .heading h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 4.5rem;
+  }
+
+  .heading h4 {
+    color: white;
+  }
+
+  .heading {
+    display: flex; /* Use flexbox for layout */
+    justify-content:space-around; /* Space between text and image */
+    align-items: center;
+  }
+
+  .heading img {
+    margin-top: 100px;
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+  }
+
+  .list {
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 50px;
+    color: #80FF44;
+    font-size: 4rem;
+  }
+
+  .listachievement h2{
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+  .listachievement p {
+    color: darkgrey;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 10px;
+    font-size: 1.23rem;
+  }
+  
+  .listachievement {
+    display: flex; /* Use flexbox for layout */
+    justify-content:space-evenly; /* Space between text and image */
+    align-items: center;
+  }
+
+  .listachievement img {
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .listachievement img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    border: 2px solid grey;
+  }
+
+  .listachievement a {
+    color: #80FF44;
+    margin-left: 100px;
+    font-size: 1rem;
+  }
+
+  .listachievement a:hover{
+    opacity: 0.75;
+  }
+
+  .placeholder {
+    position:relative;
+    z-index: -1;
+    height: 90vh; /* Adjust this value as needed */
+    margin-top: auto; /* Ensure it pushes the footer down */
+  }
+
+  

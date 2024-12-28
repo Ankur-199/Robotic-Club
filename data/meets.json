@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Currently Cooking",
+    "date": "To Be Announced",
+    "category": {
+      "color": "greened"
+    },
+    "description": "Something Special",
+    "link": {
+      "url": ""
+    },
+    "status":"Soon"    
+  }
+]
