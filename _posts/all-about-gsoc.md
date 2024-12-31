@@ -1,46 +1,28 @@
 ---
-title: "All about GSoC"
-summary: "FAQs on GSoC"
-domain: "Software Development"
-publishDate: "February 27, 2022"
-postImage: "../BlogPage/gsoc_blog.png"
-authorName: "Lokesh N"
-authorPic: "../profiles/Dev/lokesh.jpeg"
-authorDomain: "Software Development"
+title: "Revolutionizing Industries: Unleashing the Transformative Power of 3D Printing"
+summary: "FAQs "
+publishDate: "a few days ago"
+postImage: "../BlogPage/1.jpg"
+authorName: "Sanghrish"
+authorPic: "../BlogPage/profilepic.png"
 ---
 
-## Table of Contents
+## Introduction:
 
-1. Wait. What is GSoc?
-2. When does it take place?
-3. What kind of projects can you find in GSoC?
-4. What do you get from participating in GSoC?
-5. How many people participate every year?
-6. What are the major domains in which organizations participate?
+Ignite Innovation: Unleash the transformative power of 3D printing, the driving force revolutionizing industries worldwide. From manufacturing and healthcare to architecture and fashion, this cutting-edge technology is reshaping the very foundations of creation and production. Brace yourself as we delve into the captivating realm of 3D printing and unveil its unparalleled potential.
 
-### Wait. What is GSoC?
+### Unlocking Boundless Creativity:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GSoC - Google Summer of Code is a global open source program conducted by Google where programmers are paired up with mentors of their favorite open source organizations to work on a real-world project for a certain period of time. The code you contribute to the organization will be used by people all over the world!
+Unleash Imagination: With 3D printing, unleash boundless creativity and breathe life into visionary concepts. This disruptive technology empowers designers and inventors to materialize even the wildest ideas, eliminating the shackles of traditional manufacturing processes.
 
-### When does it take place and how do I apply?
+### Enhancing Efficiency and Precision:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The applications for GSoC usually start in the month of April every year. The contributors need to write a project proposal which is then reviewed by the organization’s mentors which takes around a month. And then the selected participants are announced usually in the month of May.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The contributors work with the organizations for around 12+ weeks and at the end of 12+ weeks, the contributors submit their code, their project summaries, and the final evaluation is done by the mentors. And finally the results of the program are announced whether a contributor has successfully completed the program or not.
+Accelerate Productivity: In a fast-paced world where time is money, 3D printing accelerates production cycles and slashes costs with unmatched efficiency. Experience flawless replication and minimize errors, reducing material wastage and unlocking unprecedented precision.
 
-### What kind of projects can I find in GSoC??
+### Revolutionizing Healthcare:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can find projects which are of both large and small in terms of lines of code. Many well known open source frameworks/languages like Tensorflow, Django, Dart, Haskell etc., also participate. Organizations which are open source startups like RocketChat also participate.
+Saving Lives, Transforming Medicine: Witness the groundbreaking impact of 3D printing on healthcare. Tailor-made prosthetics, implants, and personalized medical devices revolutionize patient care, offering enhanced comfort and faster recovery. The frontier of printing human tissues and organs holds the potential to redefine transplantation procedures, saving countless lives.
 
-### What do I get from participating in GSoC?
+### Conclusion:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will gain exposure to real-life software engineering and contribute to a real life project that is used by thousands of people all over the world. The code you contribute will mostly live on the main repository of the project for the rest of its lifespan.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You also get to meet and connect with people from all around the world who help you whenever you get stuck in your project and also beyond GSoC.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A stipend (around 1000 USD which is approx. 74,000 INR) is also provided to you after the successful completion of the program.
-
-### How many people participate every year?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Around 20,000 contributors register for the program and more than 1,500 contributors are selected every year to contribute to the open source project of their choice.
-
-### What are the major domains in which organizations participate?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are loads of organizations that participate every year who primarily focus on Web, Android, ML/DL, etc.
+Embrace the Future: Step into the realm of 3D printing, where ideas materialize at breathtaking speed and precision. Embrace its transformative power as it reshapes industries, opening doors to limitless possibilities. Join the revolution and witness how imagination becomes tangible through the awe-inspiring magic of 3D printing. Unleash innovation, revolutionize industries, and shape a future where possibilities know no bounds.

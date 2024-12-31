@@ -24,23 +24,17 @@
 
 .header {
   text-align: center;
-  background: url("https://i.ibb.co/rpsWqvc/biggradient.jpg");
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-attachment: fixed;
   background-size: cover;
-  background-position-y: -6rem;
+  color: #80FF44;
 }
 .header_light {
   text-align: center;
-  background: url("https://i.ibb.co/rpsWqvc/biggradient.jpg");
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #80FF44;
   background-attachment: fixed;
   background-size: cover;
-  background-position-y: -6rem;
   margin-top: 110px;
 }
 
@@ -56,7 +50,7 @@
 
 .appleHeader {
   text-align: center;
-  color: rgb(244, 58, 79);
+  color: #80FF44;
 }
 
 .appleHeader h1 {
@@ -274,7 +268,7 @@
 }
 
 .name_dark {
-  color: red;
+  color: #80FF44;
 }
 .name_light {
   color: #070707;
@@ -350,7 +344,7 @@
 .post_title_light:hover,
 .post_card_title:hover,
 .post_card_title_light:hover {
-  color: #e94057;
+  color: #80FF44;
 }
 .post_summary,
 .post_summary_light .post_card_summary,
@@ -453,9 +447,7 @@
     text-align: center;
     background: linear-gradient(
       to right,
-      rgb(255, 96, 170),
-      rgb(255, 139, 61),
-      rgb(255, 118, 182)
+      #1a8548 , #38a169, #90cf6d
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -466,7 +458,7 @@
     background-position-x: -8rem;
   }
   .header h1 {
-    color: rgb(244, 58, 79);
+    color: #80FF44;
   }
 }
 

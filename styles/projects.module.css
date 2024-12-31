@@ -3,13 +3,10 @@
 
 .header {
   text-align: center;
-  background: url("https://i.ibb.co/rpsWqvc/biggradient.jpg");
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-attachment: fixed;
   background-size: cover;
-  background-position-y: -6rem;
+  color: #80FF44;
 }
 
 .header h1 {
@@ -111,9 +108,9 @@
 
 .left_pane {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 2.5rem;
-  grid-row-gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   margin: 0 auto;
   flex: 0.9;
 }
@@ -241,23 +238,24 @@
 }
 
 .imageContainer {
-  max-height: 200px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
   border-radius: 10px 10px 0 0;
   background-color: black;
   flex: 1;
-  width: 100%;
-  overflow: hidden;
 }
 
-.imageContainer > img {
+.imageContainer img {
   width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
-.imageContainer > img {
+.imageContainer img {
   transition: transform 1s ease-out;
 }
-.imageContainer:hover > img {
+.imageContainer:hover img {
   transform: scale(1.04);
 }
 
@@ -273,7 +271,7 @@
 }
 .project_link {
   flex: 0.1;
-  background: #777;
+  background:#80FF44;
   align-self: center;
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -286,7 +284,7 @@
 
 .project_link:hover {
   text-decoration: none;
-  background: linear-gradient(to left, #8a2387, #e94057, #f27121);
+  background: linear-gradient(to left,#1a8548 , #38a169, #90cf6d);
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -392,7 +390,7 @@
 @media (max-height: 580px) {
   .header {
     text-align: center;
-    background: linear-gradient(to right, rgb(255, 96, 170), rgb(255, 139, 61), rgb(255, 118, 182));
+    background: linear-gradient(to right, #1a8548 , #38a169, #90cf6d);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -411,4 +409,12 @@
   position: relative;
   z-index: 1;
   height: 90vh;
+}
+
+.project_card {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
 }

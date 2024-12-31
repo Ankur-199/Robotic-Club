@@ -18,8 +18,8 @@ export default function Blog(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SSN Coding Club</title>
-        <meta name="description" content="Official SSN Coding Club Website" />
+        <title>Blog-Robotic Club</title>
+        <meta name="description" content="Official Robotic Club Website" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -31,29 +31,14 @@ export default function Blog(props) {
       <main className={props.theme ? styles.blog_main_container_light : styles.blog_main_container}>
         {isAppleDevice ? (
           <div className={styles.appleHeader}>
-            <h1>Blog</h1>
+            <h1> Blog</h1>
           </div>
         ) : (
           <div className={props.theme ? styles.header_light : styles.header}>
             <h1>Blog</h1>
           </div>
         )}
-        <div className={styles.subcontainer}>
-          <h2 className={styles.subheader}>
-            {cards.length > 0 ? (
-              <>
-                <span style={{ color: "#63ADF2" }}>while&nbsp;</span><span  style={props.theme ? {color:"black"}:{ color: "white" }}>(</span>
-                <span style={props.theme? {color: "black"}: { color: "#FFFBFE" }}>i</span>{" "}
-                <span style={{ color: "#63ADF2" }}>==</span>{" "}
-                <span style={props.theme? {color: "#7fbef5"}:{ color: "#BDD5EA" }}>'inspiration'</span><span style={props.theme ? {color:"black"}:{ color: "white" }}>)</span><span style={props.theme ? {color:"black"}:{ color: "white" }} >:</span> &nbsp;
-                <span style={{ color: "#63ADF2" }}>print</span><span  style={props.theme ? {color:"black"}:{ color: "white" }}>(</span>
-                <span style={props.theme? {color: "#7fbef5"}:{ color: "#BDD5EA" }}>'scroll down 👇'</span><span  style={props.theme ? {color:"black"}:{ color: "white" }}>)</span>
-              </>
-            ) : (
-              <h1 className={props.theme ? styles.coming_soon : " "}>Coming Soon! 😉</h1>
-            )}
-          </h2>
-        </div>
+        
         {cards.length > 0 ? (
           <>
             <div className={styles.blog_container}>

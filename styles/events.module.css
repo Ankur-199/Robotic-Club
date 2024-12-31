@@ -11,6 +11,9 @@
 .grid_item {
   border-radius: 5px;
   text-align: center;
+  border: 2px solid darkgrey;
+  padding: 10px;
+  transition: transform 0.2s;
 }
 
 .grid_item img {
@@ -24,7 +27,7 @@
 
 .grid_item:hover,
 .grid_item img:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 .modal {
@@ -299,4 +302,39 @@
     font-size: 15vh;
     margin-bottom: 4rem;
   }
+}
+
+.top h1 {
+  color:#80FF44;
+  font-size: 1.75rem;
+  margin-top: 10px;
+}
+
+.look h2 {
+  color: white;
+  margin-left: 250px;
+  font-weight: 900;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides overflow if the text is too long */
+  text-overflow: ellipsis;
+}
+
+.look h3 {
+  color: white;
+  margin-left: 250px;
+  font-weight: 900;
+}
+
+.look p {
+  color: darkgray;
+  margin-left: 350px;
+  font-size: 1.5rem;
+  margin-right: 100px;
+}
+
+.look {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }

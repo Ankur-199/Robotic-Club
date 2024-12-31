@@ -11,11 +11,10 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This website is maintained as an open source project by the SSN coding club! This is the ultimate resource to get all information about the club in one place. 
+This website is maintained as an open source project by the Robotics coding club! This is the ultimate resource to get all information about the club in one place. 
 Get to know what our vision is and what we have to offer from the homepage. 
 Meet the team and reach out to us using the information provided in the 'About' page.
 Find out when our next meets are scheduled and also access past recordings using the easy-to-navigate timeline on the 'Meets' page. 
-Take a look at the projects you can contribute to or perhaps get your own project featured on the 'Projects' page. 
 This is just the start of the website - we have implemented the core pages but there are a variety of new features that can be added by contributors. Learn how to contribute below!
 
 ## Fork this repository
@@ -40,7 +39,7 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd Coding-Club-Website
+cd Robotics-Club-Website
 ```
 
 Now create a branch using the `git checkout` command:

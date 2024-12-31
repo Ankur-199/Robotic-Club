@@ -81,7 +81,7 @@ function NavBar(props) {
               <Nav.Item className={styles.nav_item}>Events</Nav.Item>
             </Link>
             <Link href="/projects" passHref>
-              <Nav.Item className={styles.nav_item}>Projects</Nav.Item>
+              <Nav.Item className={styles.nav_item}>Industrial Reach</Nav.Item>
             </Link>
             <Link
               href="/blog"
@@ -90,7 +90,7 @@ function NavBar(props) {
               }}
               passHref
             >
-              <Nav.Item className={styles.nav_item}>Blog</Nav.Item>
+              <Nav.Item className={styles.nav_item}>Blog Page</Nav.Item>
             </Link>
             
 

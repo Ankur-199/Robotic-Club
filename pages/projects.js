@@ -10,7 +10,7 @@ import Footer from "./Components/Footer";
 
 const RightCard = ({ id, modalIsOpen, closeModal }) => {
   if (id !== null) {
-    const { name, projectDescription, projectLink } = Projects[id];
+    const { name, projectDescription, projectLink, projectImage } = Projects[id];
     return (
       <div className={styles.RightCard}>
         {modalIsOpen ? (
@@ -22,7 +22,7 @@ const RightCard = ({ id, modalIsOpen, closeModal }) => {
           ""
         )}
         <div className={styles.imageContainer}>
-          <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXxlbnwwfHwwfHw%3D&w=1000&q=80" />
+          <img src={projectImage} alt={name} />
         </div>
         <div className={styles.subheader}>
           <h1>{name}</h1>
@@ -36,7 +36,7 @@ const RightCard = ({ id, modalIsOpen, closeModal }) => {
       </div>
     );
   } else {
-    return <h2 className={styles.defaulttext_rightcard}>Select any of the Projects!</h2>;
+    return <h2 className={styles.defaulttext_rightcard}>Select any of the Industries!</h2>;
   }
 };
 
@@ -79,8 +79,8 @@ const ProjectCard = ({
 
 const ProjectsPage = (props) => {
   const [windowWidth, setWindowWidth] = useState(0);
-  const [projectId, setprojectId] = useState(null);
-  const [modalIsOpen, setmodalIsOpen] = useState(false);
+  const [projectId, setProjectId] = useState(null);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [isAppleDevice, setIsAppleDevice] = useState(false);
 
   useEffect(() => {
@@ -90,7 +90,8 @@ const ProjectsPage = (props) => {
   }, []);
 
   const showDescription = (id) => {
-    setprojectId(id);
+    setProjectId(id);
+    setModalIsOpen(true);
     if (windowWidth <= 425) showModal();
   };
   const disableScrolling = () => {
@@ -104,18 +105,18 @@ const ProjectsPage = (props) => {
   };
   const showModal = () => {
     disableScrolling();
-    setmodalIsOpen(true);
+    setModalIsOpen(true);
   };
   const closeModal = () => {
     enableScrolling();
-    setmodalIsOpen(false);
+    setModalIsOpen(false);
   };
 
   return (
     <div className={props.theme ? styles.container_light : styles.container}>
       <Head>
-        <title>SSN Coding Club</title>
-        <meta name="description" content="Official SSN Coding Club Website" />
+        <title>Industries-Robotic Club</title>
+        <meta name="description" content="Official Robotic Club Website" />
         <link rel="icon" href="/favicon.ico" />
         {/* for fontawesome */}
         <link
@@ -131,11 +132,11 @@ const ProjectsPage = (props) => {
       >
         {isAppleDevice ? (
           <div className={styles.appleHeader}>
-            <h1>Projects</h1>
+            <h1>Our Industrial Reach</h1>
           </div>
         ) : (
           <div className={styles.header}>
-            <h1>Projects</h1>
+            <h1>Our Industrial Reach</h1>
           </div>
         )}
         {/*
@@ -168,19 +169,14 @@ const ProjectsPage = (props) => {
               ))}
             </div>
 
-            <Modal
-              isOpen={modalIsOpen}
-              onRequestClose={closeModal}
-              contentLabel="Project Description"
-            >
-              <RightCard id={projectId} modalIsOpen={modalIsOpen} closeModal={closeModal} />
-            </Modal>
-            <div className={styles.right_pane}>
-              <RightCard id={projectId} modalIsOpen={modalIsOpen} closeModal={closeModal} />
-            </div>
+            {modalIsOpen && (
+              <div className={styles.right_pane}>
+                <RightCard id={projectId} modalIsOpen={modalIsOpen} closeModal={closeModal} />
+              </div>
+            )}
           </div>
         ) : (
-          <div className={styles.coming_soon}>Coming Soon 😉</div>
+          <div className={styles.coming_soon}>Coming Soon </div>
         )}
       </main>
       <div className={styles.placeholder}>
