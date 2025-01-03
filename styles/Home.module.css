@@ -922,3 +922,11 @@
 .testimonial p {
   color: darkgray;
 }
+
+/* Light theme styles */
+.header {
+    color: #80FF44; /* Dark theme */
+}
+.header_light {
+    color: black; /* Light theme */
+}

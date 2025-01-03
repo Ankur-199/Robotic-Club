@@ -418,3 +418,8 @@
   padding: 10px;
   transition: transform 0.2s;
 }
+
+/* Light theme styles */
+.header_light {
+    color: #80FF44; /* Light theme color */
+}

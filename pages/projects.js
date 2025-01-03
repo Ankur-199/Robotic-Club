@@ -135,7 +135,7 @@ const ProjectsPage = (props) => {
             <h1>Our Industrial Reach</h1>
           </div>
         ) : (
-          <div className={styles.header}>
+          <div className={props.theme ? styles.header_light : styles.header}>
             <h1>Our Industrial Reach</h1>
           </div>
         )}

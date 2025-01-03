@@ -20,7 +20,6 @@
   z-index: 10;
   position: relative;
   margin-top: 110px;
-
 }
 
 .header h1,.header_light h1 {
@@ -420,4 +419,9 @@
   z-index: 1;
   height: 90vh;
   margin-top: 40px;
+}
+
+/* Light theme styles */
+.header_light {
+    color: #4CAF50; /* Light theme color */
 }

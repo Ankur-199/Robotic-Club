@@ -195,6 +195,10 @@
   color: #7a7a8c;
 }
 
+.author_name_prefix_light {
+  color: black;
+}
+
 .half_circle {
   position: absolute;
   bottom: 0;
